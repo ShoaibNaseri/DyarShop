@@ -55,6 +55,7 @@ class ProductController extends Controller
             'price' => 'required',
             'image' => 'required',
             'category_id' => 'required',
+            'link' => 'required',
         ]);
 
         $imageName = time() . '.' . $request->image->extension();
@@ -127,6 +128,7 @@ class ProductController extends Controller
                 'image' => $imageName,
                 'price' => request()->price,
                 'category_id' => request()->category_id,
+                'link' => request()->link,
             ];
             $success = $product->update($data);
             if ($success) {
@@ -172,6 +174,7 @@ class ProductController extends Controller
             'description' => 'required',
             'price' => 'required',
             'category_id' => 'required',
+            'link' => 'required',
         ]);
     }
 }

@@ -83,15 +83,11 @@ Products
                                 <li><a href="javascript:void(0)" class="badge badge-link rounded-pill bg-success">Featured</a></li>
                             </ul>
                             <div class="shop-image position-relative overflow-hidden rounded shadow">
-                                <a href="shop-product-detail.html"><img src="{{url('storage/cms/images/products')}}//{{$product->image}}" class="img-fluid" alt=""></a>
-                                <a href="shop-product-detail.html" class="overlay-work">
+                                <a href="{{$product->link}}"><img src="{{url('storage/cms/images/products')}}//{{$product->image}}" class="img-fluid" alt=""></a>
+                                <a href="{{$product->link}}" class="overlay-work">
                                     <img src="images/shop/product/s-1.jpg" class="img-fluid" alt="">
                                 </a>
-                                <ul class="list-unstyled shop-icons">
-                                    <li><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-soft-danger"><i data-feather="heart" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#productview" class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="eye" class="icons"></i></a></li>
-                                    <li class="mt-2"><a href="shop-cart.html" class="btn btn-icon btn-pills btn-soft-warning"><i data-feather="shopping-cart" class="icons"></i></a></li>
-                                </ul>
+
                             </div>
                             <div class="card-body content pt-4 p-2">
                                 <a href="shop-product-detail.html" class="text-dark product-name h6">{{$product->name}}</a>

@@ -13,6 +13,10 @@
     <input type="text" value="{{old('price') ?? $product->price}}" name="price" class="form-control" id="inputEmail4" required>
 </div>
 <div class="col-md-12">
+    <label for="inputEmail4" class="form-label">Product Link</label>
+    <input type="text" value="{{old('link') ?? $product->link}}" name="link" class="form-control" id="inputEmail4" required>
+</div>
+<div class="col-md-12">
     <label for="inputEmail4" class="form-label">Select Category</label>
     <select class="js-states form-control" name="category_id" tabindex="-1">
         <optgroup label="Select Country">
