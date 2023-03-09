@@ -38,10 +38,8 @@
 
                      <li><a href="{{route('productIndex')}}" onclick="scrollElement()" class="btn sub-menu-item">Products</a></li>
 
-                     <li><a href="#about" class="sub-menu-item">About</a></li>
-                     <li class="has-submenu parent-parent-menu-item">
-                         <a href="javascript:void(0)">Landing</a><span class="menu-arrow"></span>
-                     </li>
+
+
                  </ul><!--end navigation menu-->
              </div><!--end navigation-->
          </div><!--end container-->

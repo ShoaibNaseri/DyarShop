@@ -71,7 +71,7 @@
                       <div class="text-sm-start">
                           <p class="mb-0">© <script>
                                   document.write(new Date().getFullYear())
-                              </script> Dyar.Shop - Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shoaib Hasib (JR7)</a>.</p>
+                              </script> Dyar.Shop - Developed with <i class="mdi mdi-heart text-danger"></i> by <a href="" target="_blank" class="text-reset">Shoaib Naseri</a>.</p>
                       </div>
                   </div><!--end col-->
 
